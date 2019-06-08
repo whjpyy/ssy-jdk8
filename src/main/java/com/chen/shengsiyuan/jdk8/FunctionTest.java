@@ -1,7 +1,5 @@
 package com.chen.shengsiyuan.jdk8;
 
-import org.omg.CORBA.INTERNAL;
-
 import java.util.function.Function;
 
 public class FunctionTest {
