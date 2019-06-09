@@ -1,4 +1,4 @@
-import com.chen.shengsiyuan.jdk8.Person;
+package com.chen.shengsiyuan.jdk8;
 
 import java.util.Arrays;
 import java.util.List;
