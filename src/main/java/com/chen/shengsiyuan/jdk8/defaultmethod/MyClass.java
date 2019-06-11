@@ -1,4 +1,4 @@
-package com.chen.shengsiyuan.defaultmethod;
+package com.chen.shengsiyuan.jdk8.defaultmethod;
 
 /**
  * 实现类要比接口优先级更高

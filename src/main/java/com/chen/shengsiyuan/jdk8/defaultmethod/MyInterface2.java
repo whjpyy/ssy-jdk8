@@ -1,4 +1,4 @@
-package com.chen.shengsiyuan.defaultmethod;
+package com.chen.shengsiyuan.jdk8.defaultmethod;
 
 public interface MyInterface2 {
 

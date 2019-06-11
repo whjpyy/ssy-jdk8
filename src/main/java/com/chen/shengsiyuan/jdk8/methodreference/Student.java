@@ -1,4 +1,4 @@
-package com.chen.shengsiyuan.methodreference;
+package com.chen.shengsiyuan.jdk8.methodreference;
 
 public class Student {
 
