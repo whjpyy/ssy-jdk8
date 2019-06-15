@@ -1,9 +1,6 @@
 package com.chen.shengsiyuan.jdk8.stream;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -48,5 +45,19 @@ public class StreamTest4 {
                 );
 
         list.forEach(System.out::println);
+        System.out.println("-------------------------");
+
+        Stream<String> stream2 = Stream.of("hello", "world", "helloworld");
+        ArrayList<String> arrayList = stream2.collect(Collectors.toCollection(ArrayList::new));
+        arrayList.forEach(System.out::println);
+        System.out.println("-------------------------");
+        Stream<String> stream3 = Stream.of("hello", "world", "helloworld");
+        TreeSet<String> treeSet = stream3.collect(Collectors.toCollection(TreeSet::new));
+        treeSet.forEach(System.out::println);
+        System.out.println("-------------------------");
+        Stream<String> stream4 = Stream.of("hello", "world", "helloworld");
+        String str = stream4.collect(Collectors.joining(",")).toString();
+        System.out.println(str);
+
     }
 }
